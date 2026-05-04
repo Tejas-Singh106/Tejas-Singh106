@@ -1,4 +1,4 @@
-# Hi 👋, I'm Tejas Singh (BauShab)
+# Hi 👋, I'm Tejas Singh 
 
 🎓 Computer Science Student  
 💻 Aspiring Software Developer | Backend & Cloud Enthusiast  
