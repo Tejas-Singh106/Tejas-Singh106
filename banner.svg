@@ -1,0 +1,68 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0c29"/>
+      <stop offset="50%" stop-color="#302b63"/>
+      <stop offset="100%" stop-color="#24243e"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2E9EF7"/>
+      <stop offset="50%" stop-color="#6DE1FF"/>
+      <stop offset="100%" stop-color="#00F5A0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#2E9EF7" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#2E9EF7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <circle cx="950" cy="80" r="250" fill="url(#glow)"/>
+  <circle cx="150" cy="250" r="180" fill="url(#glow)"/>
+
+  <g transform="translate(60,55)">
+    <rect x="0" y="0" width="480" height="190" rx="10" fill="#0d1117" stroke="#2E9EF7" stroke-opacity="0.35" stroke-width="1.5"/>
+    <rect x="0" y="0" width="480" height="30" rx="10" fill="#161b22"/>
+    <circle cx="18" cy="15" r="5" fill="#ff5f56"/>
+    <circle cx="38" cy="15" r="5" fill="#ffbd2e"/>
+    <circle cx="58" cy="15" r="5" fill="#27c93f"/>
+    <text x="240" y="19" font-family="Consolas, monospace" font-size="12" fill="#8b949e" text-anchor="middle">tejas@dev:~</text>
+
+    <text x="18" y="55" font-family="Consolas, monospace" font-size="14" fill="#27c93f">$ whoami</text>
+    <text x="18" y="78" font-family="Consolas, monospace" font-size="14" fill="#e6edf3">Tejas Singh — CS Student</text>
+    <text x="18" y="103" font-family="Consolas, monospace" font-size="14" fill="#27c93f">$ cat focus.txt</text>
+    <text x="18" y="126" font-family="Consolas, monospace" font-size="13" fill="#8b949e">C++ · DSA · Web Dev · AWS Cloud</text>
+    <text x="18" y="151" font-family="Consolas, monospace" font-size="14" fill="#27c93f">$ status</text>
+    <text x="18" y="174" font-family="Consolas, monospace" font-size="13" fill="#6DE1FF">Building. Learning. Shipping. <tspan fill="#00F5A0">_</tspan></text>
+  </g>
+
+  <g transform="translate(600,0)">
+    <text x="0" y="115" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">
+      Tejas Singh
+    </text>
+    <text x="0" y="150" font-family="Consolas, monospace" font-size="18" fill="url(#textGrad)" font-weight="600">
+      &lt;Backend Developer /&gt;
+    </text>
+    <text x="0" y="182" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#8b949e">
+      C++ &amp; Cloud Enthusiast · Solving DSA one problem at a time
+    </text>
+
+    <g font-family="Consolas, monospace" font-size="12" font-weight="600">
+      <rect x="0" y="205" width="60" height="26" rx="13" fill="#00599C" fill-opacity="0.25" stroke="#6DE1FF" stroke-opacity="0.5"/>
+      <text x="30" y="222" fill="#6DE1FF" text-anchor="middle">C++</text>
+
+      <rect x="72" y="205" width="72" height="26" rx="13" fill="#00F5A0" fill-opacity="0.15" stroke="#00F5A0" stroke-opacity="0.5"/>
+      <text x="108" y="222" fill="#00F5A0" text-anchor="middle">AWS</text>
+
+      <rect x="156" y="205" width="130" height="26" rx="13" fill="#F7DF1E" fill-opacity="0.15" stroke="#F7DF1E" stroke-opacity="0.5"/>
+      <text x="221" y="222" fill="#F7DF1E" text-anchor="middle">JAVASCRIPT</text>
+
+      <rect x="298" y="205" width="90" height="26" rx="13" fill="#3776AB" fill-opacity="0.2" stroke="#6DE1FF" stroke-opacity="0.5"/>
+      <text x="343" y="222" fill="#ffffff" text-anchor="middle">PYTHON</text>
+    </g>
+  </g>
+</svg>
